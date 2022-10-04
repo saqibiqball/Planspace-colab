@@ -1,0 +1,82 @@
+.ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected {
+background: rgba(204, 229, 255, 0.2) ;
+box-shadow: inset 2px 0px 0px #FFFFFF;
+}
+
+
+.ant-menu-submenu-selected {
+    background: rgba(204, 229, 255, 0.2);
+    box-shadow: inset 2px 0px 0px #FFFFFF;
+}
+
+.ant-menu-title-content{
+    /* background-color: black; */
+}
+
+.ant-menu-item-selected{
+
+    background-color: aquamarine;
+
+
+}
+.ant-menu-dark .ant-menu-item:hover,
+.ant-menu-dark .ant-menu-item-active,
+.ant-menu-dark .ant-menu-submenu-active,
+.ant-menu-dark .ant-menu-submenu-open,
+.ant-menu-dark .ant-menu-submenu-selected,
+.ant-menu-dark .ant-menu-submenu-title:hover {
+    color: #fff;
+    /* background-color: black; */
+
+    background: rgba(204, 229, 255, 0.2);
+}
+
+
+
+
+.ant-menu-dark .ant-menu-item-selected>a,
+.ant-menu-dark .ant-menu-item-selected>span>a,
+.ant-menu-dark .ant-menu-item-selected>a:hover,
+.ant-menu-dark .ant-menu-item-selected>span>a:hover {
+
+
+    /* background: rgba(204, 229, 255, 0.2);
+    box-shadow: inset 2px 0px 0px #FFFFFF;
+    padding: 10px; */
+
+
+}
+
+
+.ant-layout-sider-trigger{
+    background: rgba(0, 64, 169, 0.5) !important;
+}
+
+
+.ant-layout-sider-children {
+    height: 100%;
+    margin-top: -0.1px;
+    padding-top: 0.1px;
+    padding-left: 11px;
+}
+
+.ant-menu-submenu-open{
+
+    /* opacity: 0; */
+}
+
+
+.ant-menu-dark .ant-menu-inline.ant-menu-sub {
+    /* background: #000c17; */
+
+
+    background-color: rgb(0, 51, 153);
+    padding-left: 14px;
+
+}
+
+
+/* .ant-menu-item-selected a,
+.ant-menu-item-selected a:hover {
+    color: #1890ff !important;
+} */

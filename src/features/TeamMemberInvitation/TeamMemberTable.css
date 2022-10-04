@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,400;1,300&family=Poppins:ital@1&display=swap');
+
+.ant-table-tbody>tr:nth-child(2n) {
+    background-color: white;
+}
+
+
+.ant-table table {
+    margin-top: 6px;
+
+    font-family: "Fira Sans";
+}
+
+
+
+.ant-table-container table>thead>tr:first-child th:first-child {
+    border-top-left-radius: 2px;
+
+    width: 70px;
+}
+
+.ant-table {
+    /* height: 532px; */
+}

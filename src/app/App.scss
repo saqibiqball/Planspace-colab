@@ -1,0 +1,135 @@
+* {
+  font-family: "Fira Sans" !important;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-float infinite 3s ease-in-out;
+  }
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: rgb(112, 76, 182);
+}
+
+@keyframes App-logo-float {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(10px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+
+// label.MuiInputLabel-root,
+label.MuiInputLabel-formControl {
+  font-weight: bold !important;
+}
+
+.css-u9osun.Mui-focused {
+  font-weight: bold !important;
+  opacity: 1 !important;
+}
+
+.css-1sumxir-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+  font-weight: bold !important;
+  opacity: 1 !important;
+}
+
+input::placeholder,
+label.MuiInputLabel-root {
+  font-weight: bold !important;
+  opacity: 0.5 !important;
+}
+
+label.MuiInputLabel-formControl::first-letter {
+  color: "red" !important
+}
+
+legend.css-1ftyaf0 span {
+  font-weight: bold !important;
+  background: white !important;
+}
+
+.help-div {
+  display: flex;
+  justify-content: end;
+}
+
+.help-svg {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+}
+
+// .ant-layout-content{
+//   background-color: #F5F7FB;
+// }
+
+// .swiper {
+//   width: 100%;
+//   padding-top: 50px;
+//   padding-bottom: 50px;
+// }
+
+// .swiper-slide {
+//   background-position: center;
+//   background-size: cover;
+//   width: 400px;
+//   height: 400px;
+// }
+
+// .swiper-slide img {
+//   display: block;
+//   width: 100%;
+// }
+
+.passwordMeter {
+
+  div {
+    div {
+      height: 4px !important;
+    }
+  }
+}
+
+.password-meter {
+  border: 1px solid #c5baba87;
+}
+
+.passwordMeter::after {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  border-top: 2px solid #c5baba87;
+  border-right: 2px solid #ffffff;
+  border-bottom: 2px solid #ffffff;
+  border-left: 2px solid #c5baba87;
+  top: 100%;
+  left: 50%;
+  margin-left: 0px;
+  content: "";
+  transform: rotate(45deg);
+  margin-top: -78px;
+  background: #fff;
+}
